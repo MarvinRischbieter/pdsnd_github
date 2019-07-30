@@ -7,6 +7,11 @@ This project is a Python script for exploring data related to bike share systems
 - Importing the data and answered the questions about it by computing descriptive statistics. 
 - Writing a script that imports raw input to create an interactive experience in the terminal to present these statistics.
 
+### Instruction
+- Install python 3.x with pandas
+- Run the script by: python biskeshare.py
+- Followint the steps in the script
+
 
 ### Files used:
 - bikeshare.py
