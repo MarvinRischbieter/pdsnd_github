@@ -183,7 +183,7 @@ def trip_duration_stats(df):
 def user_stats(df):
     """Displays statistics on bikeshare users."""
 
-    print('\nCalculating User Stats...\n')
+    print('\nCalculating User Stats ...\n')
     start_time = time.time()
 
     # TO DO: Display counts of user types
@@ -196,7 +196,7 @@ def user_stats(df):
     try:
         print(df.groupby('Gender').size())
     except:
-        print("No gender data")
+        print("No gender data in the database")
 
     # TO DO: Display earliest, most recent, and most common year of birth
     try:
@@ -204,7 +204,7 @@ def user_stats(df):
 
         print("%d" % recentyear)
 
-        print("\nThis took %s seconds." % (time.time() - start_time))
+        print("\nThis operation took %s seconds." % (time.time() - start_time))
     except:
         print("No data")
     print('-'*40)
