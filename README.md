@@ -9,10 +9,10 @@ This project is a Python script for exploring data related to bike share systems
 
 
 ### Files used:
-bikeshare.py
-chicago.csv
-new york city.csv
-washington.csv
+- bikeshare.py
+- chicago.csv
+- new york city.csv
+- washington.csv
 
 ### Credits:
 https://classroom.udacity.com
