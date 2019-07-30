@@ -206,7 +206,7 @@ def user_stats(df):
 
         print("\nThis operation took %s seconds." % (time.time() - start_time))
     except:
-        print("No data")
+        print("No data found.")
     print('-'*40)
 
 def display_data(df):
