@@ -29,7 +29,7 @@ def get_filters():
         for x in citytuple:
             print(x)
         g1 = input("Enter for city : ")
-        if g1.lower() in citytuple:
+        if g1.lower() in citytuple: # Check the file name
             break
         print("Invalid City")
 
@@ -38,7 +38,7 @@ def get_filters():
         for x in monthtuple:
             print(x)
         g2 = input("Enter for Month : ")
-        if g2.lower() in monthtuple1:
+        if g2.lower() in monthtuple1: # Check the file name
             break
         print("Invalid Month")
 
@@ -48,7 +48,7 @@ def get_filters():
 
             print(x)
         g3 = input("Enter for Day of week : ")
-        if g3.lower() in daytuple1:
+        if g3.lower() in daytuple1: # Check the file name
             break
         print("Invalid Day of Week")
     result = [g1, g2, g3]
